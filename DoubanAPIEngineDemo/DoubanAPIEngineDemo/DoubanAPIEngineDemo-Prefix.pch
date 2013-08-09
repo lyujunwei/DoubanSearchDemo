@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'DoubanAPIEngineDemo' target in the 'DoubanAPIEngineDemo' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+  #import <UIKit/UIKit.h>
+  #import <Foundation/Foundation.h>
+  #import "UIViewExt.h"
+  #import "UIImageView+WebCache.h"
+  #import "MBProgressHUD.h"
+#endif
+
+#define kAPIKey @"03801d00e8e182900a805702baa487b0"
+#define kPrivateKey @"Secret822c0c8de247c782"
+#define kRedirectUrl @"http://weibo.com/zucknet"
+
+
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
